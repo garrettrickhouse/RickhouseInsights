@@ -141,6 +141,7 @@ from dotenv import load_dotenv
 from collections import defaultdict
 from decimal import Decimal  # Add this import
 
+load_dotenv()
 # Database connection function
 def get_db_connection():
     try:
