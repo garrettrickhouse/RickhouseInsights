@@ -171,7 +171,7 @@ def fetch_ad_data():
            b.persona_attributes, b.hook_visual_elements, b.hook_types, b.hook_persona_attributes 
     FROM ad_insights AS a 
     JOIN ad_creative_analysis AS b ON a.ad_id = b.ad_id 
-    WHERE account_name ILIKE '%drm%' AND amount_spent >= 35000
+    WHERE account_name ILIKE '%drm%' AND amount_spent >= 40000
     """
     
     query_thumbstop = """
